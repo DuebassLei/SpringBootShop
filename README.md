@@ -8,11 +8,8 @@
   >
   >SpringBoot 
   >
-  >Hibernate
+  >Hibernate,SpringMVC  
   >
-  >SpringMVC 
-  >
-  >Mysql 
 
   项目简介：
 
