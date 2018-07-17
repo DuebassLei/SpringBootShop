@@ -14,15 +14,11 @@
   >
   >Mysql 
 
-  
-
   项目简介：
 
   > 基于Springboot快速搭建开发环境，实现对商品的基本增删改查，前台展示模板FreeMark，数据库mysql,Spring Data  Jpa 实现数据库表的操作。
-
-  
-
-  
+  >
+  > 
 
   项目使用说明：
 
