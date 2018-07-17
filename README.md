@@ -44,30 +44,12 @@
 
   8. 用于登录验证的数据库表：
 
-     > ![mysql](C:\Users\GaoLei\AppData\Local\Temp\1531811513894.png)
+     默认tb_admin: 
 
-  
+     用户名:root
+     密码： gaolei 
 
-  
+     
 
-  项目展示：
+     
 
-  ![主页](C:\Users\GaoLei\AppData\Local\Temp\1531810797968.png)
-
-  ---
-
-  ![后台管理界面](C:\Users\GaoLei\AppData\Local\Temp\1531810858044.png)
-
-  
-
-  ---
-
-  
-
-  ![商品仓库](C:\Users\GaoLei\AppData\Local\Temp\1531810911996.png)
-
-  
-
-  ---
-
-  ![管理店铺商品](C:\Users\GaoLei\AppData\Local\Temp\1531810966490.png)
