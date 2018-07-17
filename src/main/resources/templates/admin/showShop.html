@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>店铺商品</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet" >
+    <script src="/js/bootstrap.min.js" ></script>
+</head>
+<body>
+
+<div class="container">
+    <!--<div class="row">-->
+        <!--<div class="col-md-4">商品屋</div>-->
+        <!--<div class="col-md-4 col-md-offset-4">购物车</div>-->
+    <!--</div>-->
+    <div class="jumbotron">
+        <h4>小店屋</h4>
+    </div>
+    <table class="table table-bordered">
+       <tr>
+           <th >序号</th>
+           <th >商品名</th>
+           <th >价格</th>
+           <th >数量</th>
+           <th >说明</th>
+           <th >商品编号</th>
+           <th>选中</th>
+       </tr>
+        <#list list as s>
+        <tr>
+            <td>${s_index+1}</td>
+            <td>${s.name}</td>
+            <td>${s.price}</td>
+            <td>${s.num}</td>
+            <td>${s.info}</td>
+            <td>${s.id}</td>
+            <td>
+                <input  type="radio" >
+            </td>
+        </tr>
+        </#list>
+    </table>
+</div>
+</body>
+</html>
